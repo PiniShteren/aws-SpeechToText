@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Page Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+		<script defer  src="main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>AWS Transcribe</h1>
+				<p>Speech To Text</p>
+			</header>
+
+			 <section class="main-controls">
+				<canvas class="visualizer" height="60px"></canvas>
+				<div id="buttons">
+					<button id="record">Record</button>
+					<button id="stop">Stop</button>
+				</div>
+			</section>
+		</div>
+            <div id="div-trans">
+                  <div>
+                        <p id="result">result....</p>
+                  </div>
+            </div>
+	</body>
+</html>
